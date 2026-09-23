@@ -1,0 +1,15 @@
+# PhyDeNet — core training / inference
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.12        # feature_analyzer.py (training-time analysis plots)
+
+# dataset preprocessing (preprocess/vtu_to_combined.py)
+pyvista>=0.43
+
+# optional: XGBoost baseline (python main.py -e xgboost); falls back to
+# Random Forest when absent
+# xgboost>=1.7
